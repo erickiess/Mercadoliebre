@@ -33,6 +33,8 @@ body {
        
         text-align: center;}
     article {
+        width: 200px;
+        
         margin-top: 10px;
         margin-bottom: 10px;
     }

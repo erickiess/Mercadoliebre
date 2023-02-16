@@ -29,12 +29,26 @@ body {
     footer {text-align: center;}
     main { width: 90vw;
      background-color:#ebebeb;}
+
      section {
-       
-        text-align: center;}
-    article {
-        width: 200px;
+        justify-content: space-around;
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+    }
         
+        .Caja-articulo {
+            border: solid #ebebeb 1px ;
+            background-color: #ffffff;
+            box-sizing: border-box;
+                }
+
+        
+        article {
+        width: 90%;  
         margin-top: 10px;
         margin-bottom: 10px;
+        text-align: center;
+        box-sizing: border-box;
+        
     }

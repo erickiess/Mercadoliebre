@@ -1,5 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+/*header*/
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo_searchbar_lupa{
+    width: 100%;
+    align-items: left;
+    margin-left: 10%;
+}
+
+.lista_hipervinculo{
+    align-items: left;
+    width: 100%;
+}
+
 body { 
     font-family: 'Roboto', sans-serif;
     background-color: #EAC926
@@ -15,15 +34,15 @@ body {
     .cuerpo {font-size: 12px;}
     .burger-menu { 
         color: white;
-        width: 20px;
-        height: 20px;
+        width: 30px;
+        height: 30px;
         justify-content: center;
         align-items: center;
         display: flex;
         background-color: #1259c3;;
         box-sizing: border-box;
         border-radius: 3px;
-        margin-left: 50%;
+        
             
     }
     footer {text-align: center;}
@@ -37,8 +56,8 @@ body {
         box-sizing: border-box;
     }
         
-        .Caja-articulo {
-            border: solid #ebebeb 1px ;
+    .Caja-articulo {
+            margin-top: 1px ;
             background-color: #ffffff;
             box-sizing: border-box;
                 }
@@ -46,8 +65,8 @@ body {
         
         article {
         width: 90%;  
-        margin-top: 10px;
-        margin-bottom: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
         text-align: center;
         box-sizing: border-box;
         

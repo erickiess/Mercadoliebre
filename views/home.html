@@ -14,46 +14,52 @@
 </head>
 <body>
     <header>
-        <img width="200px" src="/images/logo-mercado-liebre.svg">
+    <div class = "logo_searchbar_lupa">
+        <div>
+            <img width="200px" src="/images/logo-mercado-liebre.svg">
         <br>
-        <input type="text" name="searchbar" value="Buscar productos, marcas">
+            <input type="text" name="searchbar" value="Buscar productos, marcas">
         <br>
-        <i class="fa-solid fa-magnifying-glass"></i>
-        <br>
-        <p> <i class="fa-solid fa-hand-holding-dollar"></i> Compra en cuotas y sin tarjeta de crédito</p>
-        <nav>
-            <ul>
-                <li><a href "#"> Ofertas </a></li>
-                <li><a href "#"> Tiendas Oficiales </a></li>
-                <li><a href "#"> Vender </a></li>
-                <li><a href "#"> Ayuda </a></li>
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+    </div>
+    <div class = "manito_compra_en_cuotas">
+        <p><i class="fa-solid fa-hand-holding-dollar"></i> Compra en cuotas y sin tarjeta de crédito</p>
+    </div>
+    <nav class = "lista_hipervinculo">
+        <ul>
+            <li><a href "#"> Ofertas </a></li>
+            <li><a href "#"> Tiendas Oficiales </a></li>
+            <li><a href "#"> Vender </a></li>
+            <li><a href "#"> Ayuda </a></li>
+        </ul>
+        <ul>
+            <li><a href "#"> Creá tu cuenta</a><a>  </a></a> <i class="fa-solid fa-id-card"></i></li>
+            <li><a href "#"> Ingresá</a><a>  </a> <i class="fa-solid fa-right-to-bracket"></i></li>
+            <li><a href "#"> Mis compras</a><a>  </a> <i class="fa-solid fa-cart-plus"></i></li> 
 
-            </ul>
-            <ul>
-                <li><a href "#"> Creá tu cuenta  </a> <i class="fa-solid fa-id-card"></i></li>
-                <li><a href "#"> Ingresá </a> <i class="fa-solid fa-right-to-bracket"></i></li>
-                <li><a href "#"> Mis compras </a> <i class="fa-solid fa-cart-plus"></i></li> 
-
-            </ul>
-        </nav>
-    
-        <div class="burger-menu">
+        </ul>
+    </nav>
+    </div>
+    <div class="burger-menu">
             <i class="fas fa-bars"></i>
-            </div>
+    </div>
     </header>
 
-<main>
+    <main>
     <section>
         <h2>Basado en tu ultima visita </h2> 
         
         <article>
             <img width= "100%"  src="images\img-cafetera-moulinex.jpg">
             <div class="Caja-articulo"> 
-            <i class="fa-solid fa-truck-fast"></i>
+            <div class = "camioncito"><i class="fa-solid fa-truck-fast"></i></div>
+            <div class = precio_descuento>
             <p class="precios">$6.770</p>
             <p class="descuentos">40% OFF</p>
+            </div>
             <p class="descripciones">Cafetera Moulinex</p>
-             </div>
+            </div>
         </article>
         <article>
             <img width= "100%" src="images\img-macbook-pro-2019.jpg">
@@ -110,9 +116,9 @@
         </article>
     
     </section>
-</main>
+    </main>
 
-<footer>
+    <footer>
     <ul>
         <li> <i class="fa-solid fa-credit-card"></i>
             <br>
@@ -140,6 +146,6 @@
         <br>
         <li> <b> Copyright © 1999-2020 MercadoLiebre S.R.L. </b>
         </li>
- </footer>
+    </footer>
 </body>
 </html>
